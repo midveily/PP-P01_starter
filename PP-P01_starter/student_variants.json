@@ -1,0 +1,487 @@
+{
+  "lesson_id": "PP-P01",
+  "variant_count": 30,
+  "answer_key_included": false,
+  "variants": [
+    {
+      "kind": "purchase",
+      "title": "Вартість: зошити",
+      "given": {
+        "quantity": 3,
+        "unit_price": 24.5,
+        "fixed_fee": 10.0
+      },
+      "rules": [
+        "total = quantity * unit_price + fixed_fee",
+        "quantity — ціле невід’ємне; ціна і збір — невід’ємні"
+      ],
+      "units": "грн",
+      "number": 1,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "purchase",
+      "title": "Вартість: маркери",
+      "given": {
+        "quantity": 5,
+        "unit_price": 18.4,
+        "fixed_fee": 0.0
+      },
+      "rules": [
+        "total = quantity * unit_price + fixed_fee",
+        "quantity — ціле невід’ємне; ціна і збір — невід’ємні"
+      ],
+      "units": "грн",
+      "number": 2,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "purchase",
+      "title": "Вартість: кабелі",
+      "given": {
+        "quantity": 2,
+        "unit_price": 79.9,
+        "fixed_fee": 15.0
+      },
+      "rules": [
+        "total = quantity * unit_price + fixed_fee",
+        "quantity — ціле невід’ємне; ціна і збір — невід’ємні"
+      ],
+      "units": "грн",
+      "number": 3,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "purchase",
+      "title": "Вартість: папки",
+      "given": {
+        "quantity": 8,
+        "unit_price": 12.25,
+        "fixed_fee": 20.0
+      },
+      "rules": [
+        "total = quantity * unit_price + fixed_fee",
+        "quantity — ціле невід’ємне; ціна і збір — невід’ємні"
+      ],
+      "units": "грн",
+      "number": 4,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "purchase",
+      "title": "Вартість: блокноти",
+      "given": {
+        "quantity": 4,
+        "unit_price": 33.3,
+        "fixed_fee": 5.5
+      },
+      "rules": [
+        "total = quantity * unit_price + fixed_fee",
+        "quantity — ціле невід’ємне; ціна і збір — невід’ємні"
+      ],
+      "units": "грн",
+      "number": 5,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "storage",
+      "title": "Заповнення: сховище A",
+      "given": {
+        "capacity": 64,
+        "used": 18
+      },
+      "rules": [
+        "remaining = capacity - used",
+        "used_percent = used / capacity * 100",
+        "0 <= used <= capacity; capacity > 0"
+      ],
+      "units": "ГБ",
+      "number": 6,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "storage",
+      "title": "Заповнення: сховище B",
+      "given": {
+        "capacity": 120,
+        "used": 45
+      },
+      "rules": [
+        "remaining = capacity - used",
+        "used_percent = used / capacity * 100",
+        "0 <= used <= capacity; capacity > 0"
+      ],
+      "units": "ГБ",
+      "number": 7,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "storage",
+      "title": "Заповнення: сховище C",
+      "given": {
+        "capacity": 250,
+        "used": 125
+      },
+      "rules": [
+        "remaining = capacity - used",
+        "used_percent = used / capacity * 100",
+        "0 <= used <= capacity; capacity > 0"
+      ],
+      "units": "ГБ",
+      "number": 8,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "storage",
+      "title": "Заповнення: сховище D",
+      "given": {
+        "capacity": 80,
+        "used": 0
+      },
+      "rules": [
+        "remaining = capacity - used",
+        "used_percent = used / capacity * 100",
+        "0 <= used <= capacity; capacity > 0"
+      ],
+      "units": "ГБ",
+      "number": 9,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "storage",
+      "title": "Заповнення: сховище E",
+      "given": {
+        "capacity": 500,
+        "used": 475
+      },
+      "rules": [
+        "remaining = capacity - used",
+        "used_percent = used / capacity * 100",
+        "0 <= used <= capacity; capacity > 0"
+      ],
+      "units": "ГБ",
+      "number": 10,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "rectangle",
+      "title": "Прямокутник: макет 1",
+      "given": {
+        "width": 4.5,
+        "height": 3.0
+      },
+      "rules": [
+        "area = width * height",
+        "perimeter = 2 * (width + height)",
+        "width > 0; height > 0"
+      ],
+      "units": "см",
+      "number": 11,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "rectangle",
+      "title": "Прямокутник: макет 2",
+      "given": {
+        "width": 7.2,
+        "height": 2.5
+      },
+      "rules": [
+        "area = width * height",
+        "perimeter = 2 * (width + height)",
+        "width > 0; height > 0"
+      ],
+      "units": "см",
+      "number": 12,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "rectangle",
+      "title": "Прямокутник: майданчик",
+      "given": {
+        "width": 10.0,
+        "height": 6.4
+      },
+      "rules": [
+        "area = width * height",
+        "perimeter = 2 * (width + height)",
+        "width > 0; height > 0"
+      ],
+      "units": "м",
+      "number": 13,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "rectangle",
+      "title": "Прямокутник: панель",
+      "given": {
+        "width": 1.25,
+        "height": 0.8
+      },
+      "rules": [
+        "area = width * height",
+        "perimeter = 2 * (width + height)",
+        "width > 0; height > 0"
+      ],
+      "units": "м",
+      "number": 14,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "rectangle",
+      "title": "Прямокутник: схема",
+      "given": {
+        "width": 12.5,
+        "height": 9.5
+      },
+      "rules": [
+        "area = width * height",
+        "perimeter = 2 * (width + height)",
+        "width > 0; height > 0"
+      ],
+      "units": "мм",
+      "number": 15,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "temperature",
+      "title": "Температура: мороз",
+      "given": {
+        "celsius": -20.0
+      },
+      "rules": [
+        "fahrenheit = celsius * 9 / 5 + 32",
+        "kelvin = celsius + 273.15",
+        "celsius >= -273.15"
+      ],
+      "units": "°C / °F / K",
+      "number": 16,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "temperature",
+      "title": "Температура: точка замерзання",
+      "given": {
+        "celsius": 0.0
+      },
+      "rules": [
+        "fahrenheit = celsius * 9 / 5 + 32",
+        "kelvin = celsius + 273.15",
+        "celsius >= -273.15"
+      ],
+      "units": "°C / °F / K",
+      "number": 17,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "temperature",
+      "title": "Температура: аудиторія",
+      "given": {
+        "celsius": 18.5
+      },
+      "rules": [
+        "fahrenheit = celsius * 9 / 5 + 32",
+        "kelvin = celsius + 273.15",
+        "celsius >= -273.15"
+      ],
+      "units": "°C / °F / K",
+      "number": 18,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "temperature",
+      "title": "Температура: контрольне значення",
+      "given": {
+        "celsius": 37.0
+      },
+      "rules": [
+        "fahrenheit = celsius * 9 / 5 + 32",
+        "kelvin = celsius + 273.15",
+        "celsius >= -273.15"
+      ],
+      "units": "°C / °F / K",
+      "number": 19,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "temperature",
+      "title": "Температура: кипіння",
+      "given": {
+        "celsius": 100.0
+      },
+      "rules": [
+        "fahrenheit = celsius * 9 / 5 + 32",
+        "kelvin = celsius + 273.15",
+        "celsius >= -273.15"
+      ],
+      "units": "°C / °F / K",
+      "number": 20,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "time",
+      "title": "Тривалість: запис 1",
+      "given": {
+        "total_seconds": 3661
+      },
+      "rules": [
+        "hours = total_seconds // 3600",
+        "minutes = total_seconds % 3600 // 60",
+        "seconds = total_seconds % 60",
+        "0 <= total_seconds < 86400"
+      ],
+      "units": "год:хв:с",
+      "number": 21,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "time",
+      "title": "Тривалість: запис 2",
+      "given": {
+        "total_seconds": 7325
+      },
+      "rules": [
+        "hours = total_seconds // 3600",
+        "minutes = total_seconds % 3600 // 60",
+        "seconds = total_seconds % 60",
+        "0 <= total_seconds < 86400"
+      ],
+      "units": "год:хв:с",
+      "number": 22,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "time",
+      "title": "Тривалість: короткий запис",
+      "given": {
+        "total_seconds": 59
+      },
+      "rules": [
+        "hours = total_seconds // 3600",
+        "minutes = total_seconds % 3600 // 60",
+        "seconds = total_seconds % 60",
+        "0 <= total_seconds < 86400"
+      ],
+      "units": "год:хв:с",
+      "number": 23,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "time",
+      "title": "Тривалість: рівно година",
+      "given": {
+        "total_seconds": 3600
+      },
+      "rules": [
+        "hours = total_seconds // 3600",
+        "minutes = total_seconds % 3600 // 60",
+        "seconds = total_seconds % 60",
+        "0 <= total_seconds < 86400"
+      ],
+      "units": "год:хв:с",
+      "number": 24,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "time",
+      "title": "Тривалість: майже доба",
+      "given": {
+        "total_seconds": 86399
+      },
+      "rules": [
+        "hours = total_seconds // 3600",
+        "minutes = total_seconds % 3600 // 60",
+        "seconds = total_seconds % 60",
+        "0 <= total_seconds < 86400"
+      ],
+      "units": "год:хв:с",
+      "number": 25,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "weighted_mean",
+      "title": "Зважене середнє: дві роботи",
+      "given": {
+        "value_a": 70,
+        "weight_a": 2,
+        "value_b": 90,
+        "weight_b": 3
+      },
+      "rules": [
+        "weighted_mean = (value_a * weight_a + value_b * weight_b) / (weight_a + weight_b)",
+        "ваги невід’ємні; їх сума > 0"
+      ],
+      "units": "умовних одиниць",
+      "number": 26,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "weighted_mean",
+      "title": "Зважене середнє: рівні ваги",
+      "given": {
+        "value_a": 12.5,
+        "weight_a": 1,
+        "value_b": 17.5,
+        "weight_b": 1
+      },
+      "rules": [
+        "weighted_mean = (value_a * weight_a + value_b * weight_b) / (weight_a + weight_b)",
+        "ваги невід’ємні; їх сума > 0"
+      ],
+      "units": "умовних одиниць",
+      "number": 27,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "weighted_mean",
+      "title": "Зважене середнє: основна й додаткова",
+      "given": {
+        "value_a": 100,
+        "weight_a": 4,
+        "value_b": 60,
+        "weight_b": 1
+      },
+      "rules": [
+        "weighted_mean = (value_a * weight_a + value_b * weight_b) / (weight_a + weight_b)",
+        "ваги невід’ємні; їх сума > 0"
+      ],
+      "units": "умовних одиниць",
+      "number": 28,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "weighted_mean",
+      "title": "Зважене середнє: два модулі",
+      "given": {
+        "value_a": 45,
+        "weight_a": 3,
+        "value_b": 75,
+        "weight_b": 2
+      },
+      "rules": [
+        "weighted_mean = (value_a * weight_a + value_b * weight_b) / (weight_a + weight_b)",
+        "ваги невід’ємні; їх сума > 0"
+      ],
+      "units": "умовних одиниць",
+      "number": 29,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    },
+    {
+      "kind": "weighted_mean",
+      "title": "Зважене середнє: два вимірювання",
+      "given": {
+        "value_a": 8.2,
+        "weight_a": 2,
+        "value_b": 9.4,
+        "weight_b": 3
+      },
+      "rules": [
+        "weighted_mean = (value_a * weight_a + value_b * weight_b) / (weight_a + weight_b)",
+        "ваги невід’ємні; їх сума > 0"
+      ],
+      "units": "умовних одиниць",
+      "number": 30,
+      "check": "Вивести кожну названу величину у форматі RESULT key=value;... і звірити з точним еталоном."
+    }
+  ]
+}
